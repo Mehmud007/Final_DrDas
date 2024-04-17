@@ -1,0 +1,28 @@
+/* ------------sec2left6 pages2--------------- */
+
+.sec2right img{
+    border-radius: 25px;
+}
+.fot {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.fot h6 {
+    color: #020e21;
+    font-size: 14px;
+}
+
+.fot h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1A3760;
+    margin-bottom: 40px;
+}
+.fot p {
+    color: #7a7a7a;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

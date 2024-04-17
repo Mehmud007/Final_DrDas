@@ -1,0 +1,25 @@
+style.css -> .event -> add width:100%
+
+footer .f2lft-> padding: 20px 0;
+
+
+/* ------ Inquiry -------------- */
+#inquiry .modal-content {
+    width: 100%;
+    padding: 20px;
+ }
+ #inquiry .modal-body .row {
+     padding: 10px 0;
+ }
+ #inquiry input{
+     width: 250px;
+     margin: 10px 0;
+     background: transparent;
+     border: 0;
+     border-bottom: 1px solid #010D20;
+     padding: 10px;
+     color: white;
+     width: 100%;
+     color: #010D20;
+ }
+

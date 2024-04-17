@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Gallery with magnific-popup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <!-- Slick Theme CSS (optional) -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <!-- jQuery -->
+
+  <!-- <style>
+ .card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+}
+button.slick-prev.slick-arrow {
+  top: 115%;
+    left: 45%;
+}
+
+button.slick-next.slick-arrow{
+  top: 114%;
+    right: 45%;
+}
+.slick-slider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 30px;
+    line-height: 2;
+    opacity: .75;
+    color: blue;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+  </style> -->
+</head>
+
+<body>
+
+ 
+  
+  <!-- partial:index.partial.html -->
+  <div class="gallery ">
+  
+    <div class="images slider">
+      <div class="images__item"><a class="images__link" name="img1"
+          href="https://2.img-dpreview.com/files/p/TS1200x900~sample_galleries/8535326057/8800329237.jpg"><img
+            src="https://2.img-dpreview.com/files/p/TS1200x900~sample_galleries/8535326057/8800329237.jpg" alt="" /></a>
+      </div>
+      <div class="images__item"><a class="images__link" name="img2"
+          href="https://3.img-dpreview.com/files/p/TS1200x900~sample_galleries/9856769468/0623631455.jpg"><img
+            src="https://3.img-dpreview.com/files/p/TS1200x900~sample_galleries/9856769468/0623631455.jpg" alt="" /></a>
+      </div>
+      <div class="images__item"><a class="images__link" name="img3"
+          href="https://2.img-dpreview.com/files/p/TS1200x900~sample_galleries/6044553814/7341199015.jpg"><img
+            src="https://2.img-dpreview.com/files/p/TS1200x900~sample_galleries/6044553814/7341199015.jpg" alt="" /></a>
+      </div>
+    </div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+  <script src="./script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Slick JS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    
+$(document).ready(function(){
+  $('.slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+      settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+  </script>
+
+</body>
+
+</html>

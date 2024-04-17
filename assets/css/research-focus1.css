@@ -1,0 +1,87 @@
+/* ------------Research--------- */
+
+section.Research {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.research3 h1 {
+    font-size: 38px;
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+
+.research3 img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 550px;
+    width: 650px;
+    top: -80px;
+    right: -2px;
+}
+
+
+.research4 button.btn {
+    white-space: inherit;
+    padding: 12px 2px;
+    background-color: white;
+ 
+    color: #000000;
+    font-size: 14px;
+ 
+    border-radius: 4px;
+
+    width: 81%;
+    margin: 10px;
+    border: 1px solid #000000;
+}
+
+.research4 button.btn:hover {
+    color: #CAD3C8;
+    background-color: #1A2A44;
+}
+
+.research4 {
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    padding: 18px 3px;
+    border-radius: 9px;
+    background: white;
+}
+
+
+.rol3 {
+    margin-top: 2px;
+    padding: 1rem;
+    display: grid;
+
+    grid-gap: 20px;
+    border-radius: 9px;
+}
+
+.rol3 .filterItems {
+    border-radius: 5px;
+    padding: 19px;
+    height: 90px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+    width: 101%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.filterItems h3 {
+    padding: 9px;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+
+.filterItems i{
+    color: black;
+}
